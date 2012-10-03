@@ -10,4 +10,13 @@
 
 @interface ViewController : UIViewController
 
+
+- (IBAction)showAlertWithCancel:(id)sender;
+
+- (IBAction)showAlertWithoutButton:(id)sender;
+
+- (IBAction)showAlertWithLongTitle:(id)sender;
+
+- (IBAction)showAlertWithLongTitleAndCancelButton:(id)sender;
+
 @end
